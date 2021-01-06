@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Icon/museum.png"/>
+    <link rel="stylesheet" type="text/css" href="./CSS/styleM2.css"/>
+    <script src="Script/script.js"></script>
+    <title>Cadastro de Obras - M2</title>
+</head>
+<body>
+    <h1>Cadastramento de Obras de Museus</h1>
+
+    <table >
+        <caption>Cadastramento</caption>
+        <thead>
+            <tr>
+                <th>Nome da Obra: </th>
+                <th>Autor: </th>
+                <th>Ano da Obra: </th>
+                <th>Período da Obra: </th>
+                <th>Tipo: </th>
+                <th>Detalhamento: </th>
+                <th><input type="button" name="add" id="add" value="+" onclick="addRow()"></th>
+            </tr>
+        </thead>
+        <tbody id="tBody"></tbody>
+
+    </table>
+    <br>
+
+    <input type="button" value="Processar" onclick="validateCadastro()">
+
+    <ul id="list"></ul>
+
+    <table class="validationTable">
+        <caption>Tabela de Validação</caption>
+        <thead>
+            <tr>
+                <th>Nome da Obra: </th>
+                <th>Autor: </th>
+                <th>Ano da Obra: </th>
+                <th>Período da Obra: </th>
+                <th>Tipo: </th>
+                <th> - </th>
+            </tr>
+        </thead>
+        <tbody id="tBodyTwo"></tbody>
+    </table>
+    <br>
+    Ps.: Para visualizar o detalhamento, clique na linha da obra desejada.
+
+</body>
+</html>

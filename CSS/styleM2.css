@@ -1,0 +1,125 @@
+body{
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    line-height: 1.6;
+}
+table{
+    border-bottom: solid 1px rgb(150,0,0);
+}
+table tbody{
+    font-size: 1em;
+}
+td{
+    padding: 20px;
+}
+th{
+    background-color: rgb(250,150,150);
+    border-bottom: solid 3px rgb(75,0,0);
+}
+table tbody td{
+    vertical-align: top;
+    word-wrap: break-word;
+    text-align: justify;
+}
+table tbody tr:hover{
+    background-color: rgb(150, 200, 200);
+}
+input{
+    font-size: 1.5em;           
+    padding: 5px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgb(82, 10, 10); 
+}
+textarea{
+    font-size: 1.5em;           
+    padding: 5px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgb(82, 10, 10);
+}
+select{
+    font-size: 1.5em;           
+    padding: 5px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgb(82, 10, 10);
+}
+input:focus{
+    background-color: rgba(163, 163, 163, 0.678);
+}
+label{
+    font-weight: bold;
+}
+caption{
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+/**
+style para quando um campo não é preenchido
+**/
+.required{
+    outline-style: dashed;
+    outline-width: 3px;
+    outline-color: rgb(139, 0, 0);
+}
+
+/**
+style para lista de erros
+**/
+.list{
+    color: red;
+}
+
+/**
+style para a tabela de validação
+**/
+.validationTable {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: rgba(132, 198, 252, 0.678);
+}
+.validationTable caption{
+    font-size: 2em;
+}
+.validationTable td{
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: rgb(6, 11, 77);
+}
+.validationTable table{
+    border-bottom: solid 1px rgb(6, 11, 77);
+}
+.validationTable table tbody{
+    font-size: 1em;
+}
+.validationTable th{
+    font-variant: small-caps;
+    background-color: rgb(150, 238, 250);
+    border-top: solid 2px rgb(1, 0, 75);
+    border-left: solid 2px rgb(1, 0, 75);
+    border-right: solid 2px rgb(1, 0, 75);
+    border-bottom: solid 2px rgb(1, 0, 75);
+}
+.validationTable table tbody td{
+    vertical-align: top;
+    word-wrap: break-word;
+    text-align: justify;
+    font-variant: inherit;
+    padding: 2.5px;
+}
+.validationTable table tbody tr:hover{
+    background-color: rgb(150, 200, 200);
+}
+.validationTable input{
+    font-size: 1em;
+}
